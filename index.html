@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="./jquery-3.2.1.js"></script>
+    <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <!--write your code here-->
+    <div calss="input-group">
+        <h2>统一建模语言能力测试</h2>
+        <br>
+        <table border="0">
+            <tr>
+                <th>考试科目： 统一建模语言</th>
+                <th>时间： 100分钟</th>
+                <th>得分： 100</th>
+            </tr>
+            <tr>
+                <th>班级： <input type="text" placeholder="1班"></th>
+                <th>学号： <input type="text" placeholder="033"></th>
+                <th>姓名： <input type="text" placeholder="白彬楠"></th>
+            </tr>
+        </table>
+    </div>
+    <form action="#" method="get">
+        <div class="input-gruop">
+            <h3>一、填空题（每空5分，共20分）</h3>
+            <ol class="list-gruop">
+                <li>UML的中文全称是：<input type="text"></li>
+                <li>对象最突出的特征是：<input type="text" id="1"><input type="text" id="2"><input type="text" id="3">
+                </li>
+            </ol>
+        </div>
+        <div class="input-gruop">
+            <h3>二、选择题（每题10分，共20分）</h3>
+            <ol class="list-gruop">
+                <li>
+                    UML与软件工程的关系是：<br>
+                    <input type="radio" name="1" value="a" />（A）UML就是软件工程<br>
+                    <input type="radio" name="1" value="b" />（B）UML参与到软件工程中软件开发过程的几个阶段 <br>
+                    <input type="radio" name="1" value="c" />（C）UML与软件工程无关 <br>
+                    <input type="radio" name="1" value="d" />（D）UML是软件工程的一部分<br>
+                </li>
+                <li>
+                    Java语言支持：<br>
+                    <input type="radio" name="2" value="a" />（A）单继承<br>
+                    <input type="radio" name="2" value="b" />（B）多继承 <br>
+                    <input type="radio" name="2" value="c" />（C）单继承和多继承都支持 <br>
+                    <input type="radio" name="2" value="d" />（D）单继承和多继承都不支持<br>
+                </li>
+            </ol>
+        </div>
+        <div class="input-gruop">
+            <h3>三、多择题（每题10分，共20分）</h3>
+            <ol class="list-gruop">
+                <li>
+                    用例的粒度分为以下哪三种：<br>
+                    <input type="checkbox" name="3" value="a" />（A）概述级<br>
+                    <input type="checkbox" name="3" value="b" />（B）需求级<br>
+                    <input type="checkbox" name="3" value="c" />（C）用户目标级<br>
+                    <input type="checkbox" name="3" value="d" />（D）子功能级<br>
+                </li>
+                <li>
+                    类图由以下哪三部分组成：<br>
+                    <input type="checkbox" name="4" value="a" />（A）名称（Name）<br>
+                    <input type="checkbox" name="4" value="b" />（B）属性（Attribute）<br>
+                    <input type="checkbox" name="4" value="c" />（C）操作(Operation)<br>
+                    <input type="checkbox" name="4" value="d" />（D）方法（Function）<br>
+                </li>
+            </ol>
+        </div>
+        <div class="input-gruop">
+            <h3>四、判断题（每题10分，共20分）</h3>
+            <ol class="list-gruop">
+                <li>
+                    用例图只是用于和客户交流和沟通的，用于确定需求。
+                    <input type="radio" name="5" value="yes" />
+                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                    <input type="radio" name="5" value="no" />
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </li>
+                <li>
+                    在状态图中，终止状态在一个状态图中允许有任意多个。
+                    <input type="radio" name="6" value="yes" />
+                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                    <input type="radio" name="6" value="no" />
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </li>
+            </ol>
+        </div>
+        <div>
+            <h3>五、简答题（每题20分，共20分）</h3>
+            <ol class="list-gruop">
+                <li>
+                    简述什么是模型以及模型的表现形式？<br>
+                    <textarea cols="120" rows="2"></textarea>
+                    <div>
+                        <input type="submit" value="计算分数">
+                    </div>
+
+                </li>
+            </ol>
+        </div>
+    </form>
+</body>
+
+</html>
